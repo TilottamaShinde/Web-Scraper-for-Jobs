@@ -27,16 +27,16 @@ To run this project, follow these steps:
 
 ### 1. Clone the repository
 
-```bash
+
 git clone https://github.com/your-username/web-scraper-for-jobs.git
 cd web-scraper-for-jobs
 
-**2. Create a virtual environment (optional but recommended)**
+## 2. Create a virtual environment (optional but recommended)**
 
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
-**3. Install the required dependencies**
+## 3. Install the required dependencies
 
 pip install -r requirements.txt
 Note: If you don't have a requirements.txt file yet, you can manually install the required packages:
@@ -44,6 +44,6 @@ Note: If you don't have a requirements.txt file yet, you can manually install th
 
 pip install requests beautifulsoup4 pandas
 
-**4. Run the scraper**
+## 4. Run the scraper
 
 python web_scraper_for_jobs.py
